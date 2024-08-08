@@ -1,0 +1,122 @@
+.touch-section{
+    background-color: #f9f9f9;
+           }
+    .touch-content{
+        margin: auto;
+        width: 80%;
+    
+           }
+    .touch-item{
+        width: 30%;
+        float: left;
+        text-align: center;
+           }
+    .touch-title{
+        margin: 15px 0;
+        font-size: 20px;
+        font: bold;
+    
+           
+           }
+    .touch-icon i{
+        color: #6195ff;   
+           }
+    
+    .touch-span{
+        color: #999;
+    
+           }
+    form{
+    width: 65%;  
+    margin: auto;
+    
+    
+    
+           }
+    .block{
+       display: block;
+        
+               }
+    
+    .form-info{
+        padding: 220px 0;
+         
+                }
+    
+    input ,textarea{
+        padding-left: 10px;
+        border: 1px solid #e8e8e8;
+        height: 40px;
+        border-radius:5px;
+        margin-bottom: 15px;
+        transition: border 0.1s;
+    
+    
+         
+                }
+    textarea{
+       
+        width: 95%;
+    height: 120px;
+    background: none;
+         
+                }
+    .input [type='submit']{
+       
+    display: block;
+    width: 150px;
+    height: 100px;
+    margin:  auto;
+             
+                    }
+    .name-email input{
+        
+        width: 45%;
+        
+       float: left;
+    
+      
+                 
+                        }
+    .mg-left{
+    
+        
+     margin-left:5% ;
+      
+                 
+                        }
+    
+    .subject-widtht{
+        display: block;
+        width: 95%;
+        
+       
+     }
+    input:hover ,textarea:hover{
+       
+    border: 2px solid #6195ff;   
+    
+       
+     }
+    .submit
+    {
+    
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding: 0 20px;
+    height: 50px;
+    color: white;
+    background-color: #6195ff;
+    font-size: 18px;
+    /* font-weight: bold; */
+    text-align: center;
+    
+    transition: background-color 0.5s;
+    
+    
+    }
+    .submit:hover{
+    background-color:black;
+        
+        }

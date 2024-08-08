@@ -1,0 +1,153 @@
+/* common */
+/* overflow */
+.clear {
+clear: both;
+}
+.mg-r-10{
+   margin-right: 10px;
+    }
+body{
+    font-family:  'Varela Round', sans-serif;;
+}
+
+.pd-y {
+    padding: 130px 0;
+    }
+    .pd-t-60{
+        padding-top: 60px 0;
+        }
+.mg-b-15
+{
+    margin-bottom: 15px;
+    }
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+:root{
+    --maincolor: #6195ff;
+    --fontcolor:white;
+    --backcolor: #f2f2f2;
+    --desccolor: #776767;
+    --bordercolor: #e8e8e8;
+    --blackcolor: black;
+    --desc: var(--desccolor);
+    
+    
+    
+}
+
+.dropdown
+{
+    position: relative;
+ 
+
+  
+    
+}
+.dropdown-menu{
+    text-align: center;
+    left: -70%;
+    position: absolute;
+    background-color: var(--maincolor);
+    list-style: none;
+    width: 150px;
+    /* opacity: 0; */
+    visibility: hidden;
+    transition: opacity 0.5s ;
+    }
+.dropdown-menu a{
+        text-decoration: none;
+        display: block;
+        padding: 10px 0 5px 0;   
+        font-size: 17px;
+        color: var(--fontcolor);    
+         
+         }
+.dropdown:hover .dropdown-menu 
+{
+  opacity: 1;
+  visibility: visible;   
+     
+}
+/*./-- common */
+
+
+
+/* header */
+.header{
+
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    position: fixed;
+    width: 100%;
+}
+
+.content{
+margin: auto;
+width: 80%;
+}
+
+
+.logo-img{
+    width: 40%;
+   float: left;
+    
+
+
+    }
+.logo-img img{
+    position: relative;
+    top: 2px;
+width: 20%;
+        
+    
+        }
+
+
+.navbar{
+    width: 60%;
+    float: left;
+    text-align: right;
+
+
+    }
+.navbar > li{
+  
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+
+
+
+    }
+.navbar > li > a{
+
+   
+    padding: 10px;
+    
+    margin:  5px;
+    display: block;
+    text-decoration:none;
+    color: black;
+
+  
+      }
+.navbar > li ::after
+{
+    display: block;
+ content: '';
+ height: 2px;
+
+ background-color: var(--maincolor);
+ width: 0;
+   
+transition: width 0.5s;
+
+}
+
+.navbar li :hover:after{
+width: 100%;}

@@ -1,0 +1,63 @@
+.section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    
+    }
+    
+    
+    .new-span{
+       
+        display: block;
+        width: 45px;
+        height: 3px;
+        margin: 4px auto 70px auto;
+        background-color: #6195ff;
+    
+    }
+    
+    .about{
+        margin: auto;
+        width: 80%;
+       
+       }
+       
+       
+    .item {
+        padding: 50px 20px 20px 20px;
+    
+    text-align: center;
+     float: left;
+     width: 30%;
+     height: auto;
+    
+     border: solid 2px #e8e8e8;
+    
+    }
+    
+    
+    
+    
+    
+    .item .item-title-we{
+        
+        transition: color 1s;
+        /* padding: 2px 0 10px 0; */
+        margin-top:30px ;
+        text-transform: capitalize;
+        font-size: 24px;
+    
+      
+        }
+    
+    .item i{
+        /* width: 70px; */
+        color: #6195ff;
+       
+         }
+    
+    .item:hover h2{
+       color: white;
+      
+        }
+    

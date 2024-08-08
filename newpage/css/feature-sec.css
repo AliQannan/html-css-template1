@@ -1,0 +1,129 @@
+/* 
+porfolo item feature */
+.portfolo-section
+{background-color: #f9f9f9;}
+
+
+.portfolo-content{
+    width: 80%;
+    margin: auto;
+
+    
+    
+    
+    }
+
+.portfolo-content .section-title{
+    color: red;
+    
+  
+
+    
+    
+    
+    }
+
+/* item */
+.portfolo-item{
+width: 30%;
+float: left;
+padding: 20px;
+position: relative;
+
+
+
+}
+/* hero img */
+.portfolo-item-content{
+    
+
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    visibility : hidden;
+    transform: opaciyt 0.5s;
+ 
+
+ 
+}
+/* full img */
+.portfolo-item img{
+    width: 100%;
+    }
+    /* effect item potofolo */
+
+.port{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+
+        
+    }
+
+.portfolo-item-title{
+        position: relative;
+      top: 20px;
+      text-transform: capitalize;
+      color: white;
+      font-size: 20px;
+      /* margin-bottom: 20px; */
+      transition: top 0.5s ,opacity 0.5s;
+      margin-bottom: 20px;
+      opacity: 0;
+      transition-delay: 0.3s;
+
+            
+}
+    
+        
+.portfolo-item-desc{
+        display: block;
+        position: relative;
+        opacity: 0;
+        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
+        font-size: 20px;
+      top: 20px;
+      text-transform: capitalize;
+      color: #6195ff;
+      transition: top 0.5s ,opacity 0.5s;
+      transition-delay:0.2s ;
+      
+            
+}
+    
+    
+.mg-left{
+   margin-right: 10px;
+          
+      }
+.portfolo-item-icon{
+    position: relative;
+    margin-bottom: 20px;
+    top: 20px;
+    opacity: 0;
+    color: #6195ff;
+    transition: top 0.5s , opacity 0.5s;
+    /* opacity: 0; */
+    transition-delay: 0.3s;
+    display: inline-block;
+    background-color: #6195ff;
+    color: white;
+    padding: 8px;
+    text-align: center;
+ }
+.portfolo-item:hover .portfolo-item-content{
+opacity: 1;
+ visibility: visible;
+}
+.portfolo-item:hover .portfolo-item-desc ,.portfolo-item:hover .portfolo-item-title,.portfolo-item:hover .portfolo-item-icon{
+    top: 0;
+     opacity: 1;
+}

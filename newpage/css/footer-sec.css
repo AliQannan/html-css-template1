@@ -1,0 +1,45 @@
+.foot-section{
+    background-color: #1c1d21;
+    
+            
+            }
+    .foot-content{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        padding: 100px;
+        
+                
+                }
+    
+    
+                        
+    .foot-icon {
+        margin: 20px 0;
+    
+    
+        }
+    .foot-icon i{
+     
+                background-color: #6195ff;
+                color: white;
+                padding: 15px;
+                margin-left: 5px;
+                margin-bottom:  20px;
+                border-radius: 50%;
+                transition: opacity 0.5s , background-color 0.5s;
+        
+                }
+    .foot-icon i:hover{
+     
+        opacity: 0.8;
+        background: none;
+        }
+    .foot-img img{
+     margin-top: 0;
+    width: 15%;
+        }
+    .foot-span{
+     
+    color:#999;
+            }

@@ -1,0 +1,76 @@
+.support-section{ 
+    position: relative;
+    background-image: url(../img/background3.jpg) ;
+    height: 520px;
+    background-size: cover;
+    background-attachment: fixed;          
+                
+        }
+
+
+    .content-support{ 
+  margin: auto;
+  width: 80%;
+  padding: 145px;
+  
+            }
+
+.support-item{ 
+    position: relative;
+    width: 50%;
+    float: left;
+
+    
+    
+  }
+    
+.div-support{ 
+
+
+ padding: 40px 0px 40px 90px;
+    
+    
+  }
+.support-img{ 
+
+  position: absolute;
+  top: 34px;
+  left: 0px;
+
+
+
+       
+       
+     }
+     .support-img img{ 
+
+        border-radius: 50%;
+             width: 100%;
+             
+           }
+
+
+
+           .support-title{ 
+            text-transform: capitalize;
+            color: white;
+            font-size: 23px;
+            margin-bottom: 8px;
+                 
+               }
+
+               .support-span{
+                    font-size: 14px;
+                        color: #6195ff;
+                        text-transform: uppercase;
+                   }
+                   
+           .support-desc{ 
+            text-align: left;
+            color: white;
+         
+            line-height: 1.6;
+  
+          
+                 
+               }

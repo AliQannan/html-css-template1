@@ -1,0 +1,59 @@
+/* breadcrumbs */
+.breadcrumbs{
+    background-color:var(--backcolor);
+
+
+
+}
+.breadcrumbs-title{
+    font-size: 40px;
+    width: 50%;
+    float: left;
+
+
+ 
+  
+}
+.breadcrumbs-list{
+    padding: 25px 0;
+    width: 50%;
+    float: left;
+    text-align: right;
+
+    
+}
+
+
+.breadcrumbs-list li{
+    display: inline-block;
+    
+    
+    list-style-type: none;
+
+    
+}
+
+.breadcrumbs-list li .back{
+
+color: var(--maincolor);
+
+    text-decoration:none ;
+padding: 10px;
+font-size: 18px;
+
+    
+}
+.single-post a{
+
+   color: var(--desccolor);
+   text-decoration:none ;
+   padding: 10px;
+   font-size: 18px;
+   
+    
+        
+}
+
+
+
+
